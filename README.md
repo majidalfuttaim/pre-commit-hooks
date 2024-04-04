@@ -20,7 +20,7 @@ Install the following software in order to work in the monorepo:
 
 Add the below snippet in .pre-commit-config.yaml 
 
-```bash
+```YAML
 - repo: https://github.com/majidalfuttaim/pre-commit-hooks
   hooks:
     - id: diagrams-docker
