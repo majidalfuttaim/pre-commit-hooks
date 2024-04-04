@@ -1,0 +1,6 @@
+-   id: diagrams-docker
+    name: diagrams-docker
+    description: Diagrams.mingrammar.com provided via docker
+    entry: /entrypoint.sh
+    language: docker
+    files: '\.diagrams\.py$'
