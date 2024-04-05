@@ -1,7 +1,7 @@
 #! /bin/sh
 
 # To fix error "fatal: detected dubious ownership in repository at '/src'"
-#git config --global --add safe.directory /src
+git config --global --add safe.directory '*'
 
 # Changing dir to generate the diagram in the same directory
 cd -P "$( dirname "$1" )"
