@@ -6,6 +6,6 @@ RUN apk add --update --no-cache graphviz ttf-dejavu build-base git \
   && adduser -u 1000 -G dot -s /bin/sh -D dot
 
 RUN pip install diagrams
-
+RUN git config --global --add safe.directory '*'
 COPY entrypoint.sh .
 RUN chmod +x entrypoint.sh
